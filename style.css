@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: unset;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0%;
+        position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+}
+    
+    
+
+/* .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.name a{
+    font-size: 20px;
+    padding-left: 12px;
+}
+.marbleicon img{
+    width: auto;
+    height: 65px;
+    object-fit: cover;
+
+}
+.name span{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#Home{
+    position: relative;
+     background-image: url("marblebackimg.png");
+    height: 100vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      background:
+    linear-gradient(
+        to right,
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.30),
+        rgba(0,0,0,0)
+        
+    ),
+  
+}
+
+
+.homecontent{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left:120px;
+    width: 40%;
+    
+    
+    
+
+
+    
+
+    
+}
+.homecontent h3{
+    color: orange;
+    font-size: 18px;
+    font-weight: 700;
+}
+.homecontent h1{
+    font-size: 54px;
+}
+.homecontent h1 strong{
+    color: orange;
+}
+.homecontent p{
+    font-size: 18px;
+}
+.bttn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #b97417;
+    border-radius: 10px;
+     transition: all 0.3s ease;
+    
+}
+.bttn a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+    .serviceheading{
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .cards{
+        /* background-image: url("albeta.jpg"); */
+
+        text-align: center;
+        /* background-color: bisque; */
+        border-radius: 10px ;
+        padding: 40px 20px ;
+    
+    }
+
+    .serviceheading h3{
+        text-transform: uppercase;
+        color:#f8930d;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .serviceheading h1{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .firstbackimg{
+        background-image: url("albeta.jpg");
+        border-radius: 10px;
+
+    }
+    .secbackimg{
+        background-image: url("floor.jpg");
+        border-radius: 10px;
+
+    }
+    .cards h1{
+        font-size: 24px;
+        text-transform: capitalize;
+
+        font-weight: bold;
+    }
+    .thirdimg{
+        background-image: url("custommarble.jpg");
+        border-radius: 10px;
+
+    }
+    .fourthimg{
+         background-image: url("albeta.jpg");
+        border-radius: 10px;
+
+    }
+    .img{
+        height: 300px;
+        /* width: 200px; */
+    }
+    .img img{
+        height: 100%;
+        width: 100%;
+         
+    }
+ 
+    .galleryheading{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .galleryheading h3{
+        text-transform: uppercase;
+        color:#f8930d;
+        font-size: 22px;
+        font-weight: 700;
+
+    }
+        .galleryheading h1{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .imagemarbl img{
+        border-radius: 20px;
+    }
+    .headingabout {
+        margin-top: 20px;
+        font-size: 32px;
+        text-align: center;
+        color:#f8930d;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .detail {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-top: 30px;
+    }
+    .pre  {
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    .pre i {
+        padding-left: 40px;
+        color: #f8930d;
+    }
+    .sat i{
+        font-size: 30px;
+        padding-left: 60px;
+        color: #f8930d;
+    }
+    .exp i{
+        font-size: 30px;
+        padding-left: 40px;
+        color: #f8930d;
+    }
+    .pos{
+        position: relative;
+    }
+    .gemicon{
+        background-color: #ce964c;
+        width: 28px;
+        padding: 18px 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -32px;
+        left: 120px;
+        
+    }
+    .gemicon i{
+        font-size: 26px;
+        color: white;
+        /* padding-right: 38px; */
+        
+    }
+    .content h1{
+        text-transform: capitalize;
+    }
+    .bttn2{
+        margin-top: 30px;
+        background-color: #b97417;
+    }
+    .content p{
+        /* text-align: center; */
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .bttn:hover{
+        background-color:#f8930d;
+        color: black;
+
+    }
+    #Owner{
+        text-align: center;
+    }
+    .ownerheading{
+        margin-top: 20px;
+
+    }
+    .ownerheading h3{
+        color: #f8930d;
+        font-size: 32px;
+        font-weight: 700;
+        /* -webkit-text-stroke: 1px black  ; */
+
+        
+    }
+    .box{
+        box-shadow: 0px 0px 20px 0px gray;
+        border-radius: 22px;
+        margin-right: 50px;
+        /* background-color: red; */
+    }
+    .diff{
+        color: #f8930d;
+         /* -webkit-text-stroke: 1px black; */
+    }
+    .bor{
+        border: 2px solid black ;
+    }
+
+
+    .circleimg{
+        margin-top: 20px;
+        background-color: grey;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border-radius: 50%;
+        border: 2px solid orange;
+        
+    }
+    .circleimg img{
+        border-radius: 50%;
+    }
+    .ownerdetail h1{
+        color: #f8930d;
+        font-weight: 700;
+        -webkit-text-stroke: 1px black  ;
+
+    }
+    .contactheading{
+        margin-bottom: 20px;
+       
+    }
+    .contactheading h3{
+         color: #f8930d;
+         text-transform: uppercase;
+         font-size: 22px;
+
+    }
+    .contactheading h1{
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .ownerdetail h5{
+        font-size: 22px;
+    }
+    .ownerdetail p{
+        font-size: 24px;
+    }
+    .bg-light{
+        border: 1px solid black;
+        border-radius: 22px;
+    }
+    .locationbox{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .locicon{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ce964c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .locicon i{
+        color: white;
+        font-size: 20px;
+          
+    }
+ .loctext{
+    padding-left: 20px;
+ }
+ .loctext h3{
+    font-weight: 700;
+    font-size: 24px;
+ }
+ .loctext h4{
+    font-size: 20px;
+ }
+ .loctext p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+ }
+ .fnclass{
+    width: 300px;
+ }
+ .emclass{
+    width: 300px;
+ }
+ .phclass{
+    width: 606px;
+ }
+input{
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 12px;
+    
+}
+input::placeholder{
+    color: black;
+}
+textarea{
+    padding: 14px;
+    font-weight: 700;
+    border-radius: 12px;
+}
+textarea::placeholder{
+    color: black;
+}
+
+.name a{
+    color: white;
+}
+.quicklink{
+    display: flex;
+    gap: 50px;
+    
+}
+.quicklink ul{
+    margin: 0;
+    padding: 0;
+}
+.quicklink ul li{
+    list-style: none;
+    
+    
+}
+
+.linkhead h4{
+    color: white;
+    margin-bottom: 10px;
+}
+   
+
+    .quicklink a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .medialink h2{
+        color: white;
+
+    }
+    .row{
+        align-items: center;
+    }
+    .linkimg{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+
+    .linkimg i{
+        color: #e48a1a;
+        font-size: 24px;
+
+    }
